@@ -1,0 +1,32 @@
+<head>
+<meta charset="utf-8">
+
+<!-- Here is where we make things nice -->
+<style>
+html {
+    font-family: sans-serif;
+}
+</style>
+</head>
+
+<!-- Here is where we make things structured -->
+<body>
+<h1>Hello world!</h1>
+<ul>
+    <li>Animals</li>
+    <li>Architecture</li>
+    <li>Food</li>
+    <li>Art</li>
+</ul>
+<button id="example">Press</button>
+</body>
+
+<!-- Here is where we make things interactive -->
+<script>
+function reactToClick() {
+    alert("Clicked!");
+}
+
+var button = document.getElementById("example");
+button.onclick = reactToClick;
+</script>
